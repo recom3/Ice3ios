@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08478EB22C503918008672ED /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08478EB12C503918008672ED /* WebService.swift */; };
+		08478EB32C503918008672ED /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08478EB12C503918008672ED /* WebService.swift */; };
+		08478EB52C503951008672ED /* HudService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08478EB42C503951008672ED /* HudService.swift */; };
+		08478EB62C503951008672ED /* HudService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08478EB42C503951008672ED /* HudService.swift */; };
 		088D689727E4AE1300839A2E /* snow3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088D688727E4AE1200839A2E /* snow3App.swift */; };
 		088D689827E4AE1300839A2E /* snow3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088D688727E4AE1200839A2E /* snow3App.swift */; };
 		088D689927E4AE1300839A2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 088D688827E4AE1200839A2E /* ContentView.swift */; };
@@ -16,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08478EB12C503918008672ED /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		08478EB42C503951008672ED /* HudService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudService.swift; sourceTree = "<group>"; };
 		088D688727E4AE1200839A2E /* snow3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = snow3App.swift; sourceTree = "<group>"; };
 		088D688827E4AE1200839A2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		088D688927E4AE1300839A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,6 +63,8 @@
 				088D688727E4AE1200839A2E /* snow3App.swift */,
 				088D688827E4AE1200839A2E /* ContentView.swift */,
 				088D688927E4AE1300839A2E /* Assets.xcassets */,
+				08478EB12C503918008672ED /* WebService.swift */,
+				08478EB42C503951008672ED /* HudService.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -176,6 +184,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08478EB22C503918008672ED /* WebService.swift in Sources */,
+				08478EB52C503951008672ED /* HudService.swift in Sources */,
 				088D689927E4AE1300839A2E /* ContentView.swift in Sources */,
 				088D689727E4AE1300839A2E /* snow3App.swift in Sources */,
 			);
@@ -185,6 +195,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08478EB32C503918008672ED /* WebService.swift in Sources */,
+				08478EB62C503951008672ED /* HudService.swift in Sources */,
 				088D689A27E4AE1300839A2E /* ContentView.swift in Sources */,
 				088D689827E4AE1300839A2E /* snow3App.swift in Sources */,
 			);
